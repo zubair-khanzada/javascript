@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/style2.css" rel="stylesheet">
+</head>
+<body>
+
+<input type="text" id="text1" onkeyup="thisFunction()">
+<input type="text" id="text2">
+<p></p>
+<form>
+First Name:<input type="text" placeholder="First Name">
+Last Name:<input type="text" placeholder="Last Name">
+Email Add:<input type="email" placeholder="Email">
+Password:<input type="password" placeholder="Password">
+<button type="button" onclick="myFunction()" value="Submit">submit</button>
+</form>
+
+
+<script>
+
+function myFunction() {
+    var zubair = document.getElementsByTagName("input");
+    for (var i = 0; i < zubair.length; i++) {
+        console.log(zubair[i].value);
+    }
+}
+
+function thisFunction(){
+    var kz = document.getElementById("text1").value;
+    document.getElementById("text2").value = kz;
+}
+
+</script>
+</body>
+</html>

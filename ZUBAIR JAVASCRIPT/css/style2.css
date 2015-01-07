@@ -1,0 +1,17 @@
+.green{
+    background: red;
+    width: 400px;
+    height: 200px;
+    border-radius: 0 200px;
+
+}
+.red{
+    background: green;
+    width: 400px;
+    height: 200px;
+    border-radius: 200px 0;
+}
+.shahid{
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<h1>AppBakerZ</h1>
+
+<!--<button type="button" class="shahid" onclick="myFunction()">AppBakerZ</button>-->
+<!--<div class="green" id="hh"></div>-->
+
+<input type="text" id="text1" onkeyup="aaFunction()">
+<input type="text" id="text2">
+
+<button type="button" class="khan" value="click me" onclick="document.getElementById('array').innerHTML = myFunction(5,10)">click me</button>
+<button type="button" class="zada" value="click me" onclick="document.getElementById('hahaha').innerHTML = ohFunction(5,5)">click me</button>
+<!--<button type="button" value="click me" onclick="a()">click me</button>-->
+
+<p id="array"></p>
+<h4 id="hahaha"></h4>
+<h5 id="wah"></h5>
+
+<form id="demo">
+
+    First Name:<input type="text" placeholder="First Name"><br>
+    <br>
+    Last Name:<input type="text" id="last" placeholder="Last Name"><br>
+    <br>
+    Email add:<input type="email" id="email" placeholder="Email"><br>
+    <br>
+    Password:<input type="password" id="password" placeholder="Password" ><br>
+    <br>
+    <input type="button" onclick="zkzFunction()" value="Submit">
+</form>
+<p></p>
+
+
+<button type="button" onclick="whoFunction()">Click</button>
+<div id="zubair" class="red" style="display: none">Zubair</div>
+
+
+
+<script>
+
+  function whoFunction(){
+      var j = document.getElementById("zubair");
+         if(j.style.display === "block" || j.style.display === ""){
+             j.style.display = "none";
+         }
+      else
+             j.style.display = "block";
+
+  }
+
+var staff=[
+    'furqan',
+   'shahzad',
+        course=[
+            'js',
+            'backbone'
+        ]
+
+];
+
+
+for(var i=0; i<staff.length; i++){
+    for(var a=0; a<course.length; a++){
+        if(i==a){
+        console.log(staff[i],course[a]);
+    }}
+
+}
+
+
+
+function zkzFunction(){
+
+  var a =  document.getElementsByTagName('input');
+    for(var i = 0; i < a.length; i++){
+        console.log(a[i].value);
+    }
+  var b =  document.getElementById('last').value;
+  var c =  document.getElementById('email').value;
+  var d =  document.getElementById('password').value;
+
+    console.log(a);
+}
+
+function myFunction(a , b){
+    return a + b;
+
+}
+
+function ohFunction(s,d){
+
+    return s + d;
+}
+function a (){
+    var x = myFunction(5,10),
+            y = ohFunction(5,5),
+             z = x + y;
+document.getElementById('wah').innerHTML = z;
+
+}
+
+function aaFunction(){
+    var d = document.getElementById('text1').value;
+    document.getElementById('text2').value = d;
+}
+
+
+
+
+
+
+
+
+
+
+
+function mfunction(h,k){
+    return h,k + a,b + s,d;
+}
+
+
+var hours = [];
+
+var student = [
+    {
+        id: 'Owais',
+        cast: 'khanzada',
+        age: 24,
+        email: 'Owaisraza@kz',
+        number: 123456789
+    },
+    {
+        id: 'Zubair',
+        cast: 'khanzada',
+        age: 22,
+        email: 'Zubair@kz',
+        number: 123456789012
+    },
+    {
+        id: 'Umair',
+        cast: 'khanzada',
+        age: 21,
+        email: 'Umair@kz',
+        number: 123456789145
+    },
+    {
+        id: 'Sohaib',
+        cast: 'khanzada',
+        age: 14,
+        email: 'Sohaib@kz',
+        number: 1234567890002
+    },
+    {
+        id: 'Adeel',
+        cast: 'khanzada',
+        age: 21,
+        email: 'Adeel@kz',
+        number: 12345678415759
+    },
+    {
+        id: 'Shahid',
+        cast: 'dilbar',
+        age: 23,
+        email: 'Shahid.dilbar',
+        number: 1234512126789
+    }
+];
+    for(var i = 0; i < student.length; i++) {
+        var a = student[i].id;
+        hours.push(a);
+        var b = student[i].cast;
+        hours.push(b);
+        var v = student[i].age;
+        hours.push(v);
+        var c = student[i].email;
+        hours.push(c);
+        var x = student[i].number;
+        hours.push(x);
+
+   }
+console.log(hours);
+
+
+  //    function myFunction(){
+  //   var x = document.getElementById("hh");
+  //        x.classList.toggle("red");
+  //        x.classList.toggle("green");
+  //
+  //    }
+
+  //    var Hello =confirm ("Press OK or Cancel");
+  //    if (Hello==true){
+  //        document.write('Brother you pressed OK button');
+  //    }
+  //    else{
+  //        document.write('oh man, you pressed cancel');
+  //    }
+</script>
+
+</body>
+</html>

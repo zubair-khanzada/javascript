@@ -1,0 +1,253 @@
+/*h1{*/
+    /*width: 290px;*/
+    /*font-size: 45px;*/
+    /*background: green;*/
+    /*color: white;*/
+    /*margin: 0 auto;*/
+    /*margin-top: 30px;*/
+    /*border-radius: 63px 65px;*/
+    /*text-align: center;*/
+    /*font-family: fantasy;*/
+    /*transition: 3s ease-in-out;*/
+/*}*/
+/*h1:hover{*/
+    /*background: white;*/
+    /*color: green;*/
+ /*transition: 3s ease-in-out;*/
+    /*-webkit-transform: translate(0,360px);*/
+
+
+/*}*/
+/*.khan{*/
+    /*background: red;*/
+    /*color: white;*/
+    /*font-size: 20px;*/
+/*}*/
+/*.zada{*/
+    /*background: green;*/
+    /*color: white;*/
+    /*font-size: 20px;*/
+/*}*/
+/*.red{*/
+    /*background: black;*/
+    /*color: green;*/
+    /*font-size: 16px;*/
+    /*width: 400px;*/
+    /*height: 30px;*/
+    /*text-align: center;*/
+    /*padding-top: 260px;*/
+/*}*/
+/*.green{*/
+    /*background: red;*/
+    /*color: cyan;*/
+    /*font-size: 25px;*/
+    /*width: 400px;*/
+    /*height: 400px;*/
+/*}*/
+.fine{
+    margin-top: 30px;
+}
+.fine a{
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px 15px 20px;
+    border-radius: 25px;
+}
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+h1{
+    background: purple;
+    color: black;
+    width: 400px;
+    border-radius: 10px 10px;
+    text-align: center;
+    border: 5px solid red;
+    background: -webkit-linear-gradient(yellow,green,deepskyblue,mediumpurple);
+}
+.navigation{
+    width: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.navigation ul{
+    float: left;
+    padding: 0;
+    width: 100%;
+}
+.navigation ul li{
+    float: left;
+    list-style: none;
+    padding-left: 3px;
+}
+.navigation ul li a{
+    background: green;
+    color: white;
+    text-decoration: none;
+    padding: 15px 70px 15px 70px;
+
+}
+.picture{
+    width: 1280px;
+    float: left;
+}
+.picture img{
+    width: 422px;
+    height: 200px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 4px;
+}
+.paragraph{
+    width: 1280px;
+    margin: 0 auto;
+}
+.first{
+    width: 425px;
+    float: left;
+    background: -webkit-linear-gradient(yellow,green,deepskyblue,orange);
+    color: black;
+}
+.second{
+    width: 420px;
+    float: left;
+    background: black;
+    color: white;
+    margin-left: 5px;
+
+}
+.third{
+    width: 425px;
+    float: right;
+    background: red;
+    color: white;
+}
+.images{
+    width: 1280px;
+    margin: 0 auto;
+}
+.images img{
+    width: 422px;
+    height: 250px;
+    float: left;
+    margin-left: 4px;
+}
+.hello{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.one{
+    width: 633px;
+    float: left;
+    background: blueviolet;
+    margin-right: 7px;
+}
+.two{
+    width: 640px;
+    float: left;
+    background: aquamarine;
+}
+.high{
+    width: 100%;
+    margin: 0 auto;
+}
+.high img{
+    width: 636px;
+    height: 300px;
+}
+
+
+.enter{
+    width: 200px;
+    height: 30px;
+    background: green;
+    color: black;
+    font-size: 20px;
+    border-radius: 60px 0;
+    text-align: center;
+    border: none;
+}
+.pass{
+    width: 200px;
+    height: 30px;
+    background: green;
+    color: black;
+    font-size: 20px;
+    border-radius: 0 60px;
+    text-align: center;
+    border: none;
+}
+.khan{
+    width: 90px;
+    height: 30px;
+    background: brown;
+    color: aliceblue;
+}
+.enter:hover{
+    background: black;
+    color: white;
+}
+.pass:hover{
+    background: black;
+    color: red;
+}
+.khan:hover{
+    background: black;
+    color: white;
+}
+.footer{
+    width: 1280px;
+    margin: 0 auto;
+    background: -webkit-radial-gradient(yellow,green,red,purple);
+    padding-bottom: 150px;
+    margin-top: 15px;
+}
+.nav{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+.nav ul{
+   float: left;
+}
+.nav ul li{
+    padding: 3px 65px 5px 65px;
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    padding: 0 40px 0 40px;
+    color: aliceblue;
+}
+.nav ul li a:hover{
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

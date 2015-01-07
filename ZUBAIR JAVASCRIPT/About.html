@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<form>
+    <input type="email" class="enter" id="text1" name="email add" placeholder="Email"><br>
+    <br>
+    <input type="password" class="pass" id="text2" name="password" placeholder="Password"><br>
+    <br>
+    <button type="button" class="khan" onclick="myFunction()" value="Login">Login</button>
+    <p></p>
+
+
+        First Name:<input type="text" placeholder="First Name"><br>
+        <br>
+        Last Name:<input type="text" id="last" placeholder="Last Name"><br>
+        <br>
+        Email add:<input type="email" id="email" placeholder="Email"><br>
+        <br>
+        Password:<input type="password" id="password" placeholder="Password" ><br>
+        <br>
+        <button type="button" onclick="zkzFunction()" value="Submit">Submit</button>
+
+<p></p>
+</form>
+
+<button type="button" onclick="twoFunction()">Click to Add</button>
+<button type="button" onclick="thereFunction()">Click to Remove</button>
+<ul id="furqan"></ul>
+
+<p></p>
+
+<button type="button" id="demo" onclick="helloFunction()">Click me</button>
+<p></p>
+<div id="same" style="display: none">Zubair kz</div>
+<p></p>
+<button type="button" id="who" onclick="wahFunction()">Click me</button>
+<p></p>
+<div id="sohaib" style="display: none">Umair kz</div>
+
+<p></p>
+<input type="text" id="App" onkeyup="abcFunction()">
+<input type="text" id="Bakerz">
+
+<script>
+
+    function abcFunction(){
+        var zz = document.getElementById("App").value;
+        document.getElementById("Bakerz").value = zz;
+
+    }
+
+
+    function helloFunction(){
+       var a = document.getElementById("same");
+        if (  a.style.display === "block" || a.style.display === ""){
+            a.style.display = "none"
+        }
+        else
+        a.style.display = "block";
+
+    }
+
+    function wahFunction(){
+        var b = document.getElementById("sohaib");
+        if (  b.style.display === "block" || b.style.display === ""){
+            b.style.display = "none"
+        }
+        else
+            b.style.display = "block";
+
+    }
+
+    function myFunction(){
+        var kz = document.getElementById("text1").value;
+        var khan = document.getElementById("text2").value;
+
+        if (kz == "zubair" && khan == "pakiza"){
+            alert("Welcome");
+            location="right.html";
+
+        }
+
+    }
+
+
+
+    function zkzFunction(){
+       var shahid = document.getElementsByTagName("input");
+        for (var khan = 0; khan < shahid.length; khan++){
+            console.log(shahid[khan].value);
+        }
+    }
+
+
+
+
+
+    function twoFunction(){
+        var ul = document.getElementById("furqan");
+        var li = document.createElement("li");
+        li.appendChild(document.createTextNode("AppBakerZ"));
+        ul.appendChild(li);
+
+    }
+
+    function thereFunction(){
+        var ul = document.getElementById("furqan");
+        ul.removeChild(ul.childNodes[0]);
+
+    }
+
+    var students = [
+        {
+            name: "owais",
+            age: 24
+        },
+        {
+            name: "zubair",
+            age: 22
+        },
+        {
+            name: "umair",
+            age: 20
+        },
+        {
+            name: "sohaib",
+            age: 13
+        },
+        {
+            name: "zakir",
+            age: 23
+        },
+        {
+            name: "babar",
+            age: 24
+        },
+        {
+            name: "yawar",
+            age: 26
+        },
+        {
+            name: "khawar",
+            age: 28
+        },
+        {
+            name: "bilal",
+            age: 18
+        },
+        {
+            name: "joni",
+            age: 23
+        }
+    ];
+
+    var ul = document.createElement("ul");
+
+    for (var i = 0; i < students.length; i++){
+        var li = document.createElement("li");
+        li.appendChild(document.createTextNode(students[i].name+students[i].age));
+        ul.appendChild(li);
+    }
+
+    document.body.appendChild(ul);
+
+</script>
+
+</body>
+</html>
